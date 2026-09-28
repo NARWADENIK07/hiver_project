@@ -1,17 +1,24 @@
 # Virtual environments
+# Virtual environments
 .venv/
 venv/
 hiver_env/
 
-# Dataset
-data/*.csv
-
-# Python cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Environment files
+# Generated datasets
+output/*.csv
+
+# Local data
+data/
+
+# Environment variables
 .env
+
+# OS files
+.DS_Store
